@@ -19,5 +19,7 @@ void init(NODE** head);
 NODE* add(NODE* node, DATA data);
 void add_at(NODE* node, DATA data);
 void print_list(NODE* head);
+NODE * reverse(NODE * node);
+void get_list_transactions(NODE* head, unsigned char *list_transactions);
 
 #endif //LINKEDLIST_H

@@ -3,7 +3,7 @@
 
 #include "linkedlist.h"
 
-static NODE * reverse(NODE * node) {
+NODE * reverse(NODE * node) {
     NODE * temp;
     NODE * previous = NULL;
     while (node != NULL) {
