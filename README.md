@@ -1,8 +1,12 @@
-# 1-blockchain
-Very basic blockchain 
+# A dummy blockchain implementation in C
 
-#Compile
+## Compile
+```
 gcc -o blockchain blockchain.c hash.c linkedList.c
+```
 
-#Execute
+## Execute
+```
 ./blockchain
+```
+See the post in [myram.xyz](https://myram.xyz).
