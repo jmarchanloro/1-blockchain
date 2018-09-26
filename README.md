@@ -9,4 +9,4 @@ gcc -o blockchain blockchain.c hash.c linkedList.c
 ```
 ./blockchain
 ```
-See the post in [myram.xyz](https://myram.xyz).
+See the post in [myram.xyz](https://myram.xyz/c-blockchain-implementation-2/).
