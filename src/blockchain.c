@@ -16,7 +16,6 @@ char *party_name[MAX_PARTIES] = {"GOOD PARTY", "MEDIOCRE_PARTY", "EVIL_PARTY"};
 static party_code get_vote()
 {
     int r = rand();
-    printf("rand:%d-%d-%d-%s\n",r, MAX_PARTIES, r%MAX_PARTIES, party_name[r%MAX_PARTIES]);
     return r%MAX_PARTIES;
 }
 
